@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c2lp7t038r5ti"
+path="res://.godot/imported/compact_classic.obj-b7fcd9372d9a27993c7220b3f203d30e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/compact_classic.obj-b7fcd9372d9a27993c7220b3f203d30e.mesh"]
+
+source_file="res://Learning physics/assets/Models/car/classic_hatchback/compact_classic.obj"
+dest_files=["res://.godot/imported/compact_classic.obj-b7fcd9372d9a27993c7220b3f203d30e.mesh", "res://.godot/imported/compact_classic.obj-b7fcd9372d9a27993c7220b3f203d30e.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

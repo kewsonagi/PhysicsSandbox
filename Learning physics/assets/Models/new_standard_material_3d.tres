@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://ctt4aqwqbhluo"]
+
+[ext_resource type="Texture2D" uid="uid://tuvpil06rivr" path="res://Learning physics/assets/Models/Turret_0.png" id="1_6eou7"]
+[ext_resource type="Texture2D" uid="uid://b21aon3pu2rp7" path="res://Learning physics/assets/Models/Turret_2.png" id="2_7hrm3"]
+
+[resource]
+albedo_texture = ExtResource("1_6eou7")
+ao_enabled = true
+ao_texture = ExtResource("2_7hrm3")
+ao_texture_channel = 4

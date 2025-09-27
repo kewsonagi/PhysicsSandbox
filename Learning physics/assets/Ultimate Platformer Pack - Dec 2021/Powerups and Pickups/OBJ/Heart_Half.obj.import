@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://80kl87km54l5"
+path="res://.godot/imported/Heart_Half.obj-daf0138efdf41df6202d63703e506fdf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Heart_Half.obj-daf0138efdf41df6202d63703e506fdf.mesh"]
+
+source_file="res://Learning physics/assets/Ultimate Platformer Pack - Dec 2021/Powerups and Pickups/OBJ/Heart_Half.obj"
+dest_files=["res://.godot/imported/Heart_Half.obj-daf0138efdf41df6202d63703e506fdf.mesh", "res://.godot/imported/Heart_Half.obj-daf0138efdf41df6202d63703e506fdf.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

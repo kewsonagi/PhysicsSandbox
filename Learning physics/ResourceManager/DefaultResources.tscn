@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0s8ey703a0i6"]
+
+[ext_resource type="Script" uid="uid://y57u7bdnh015" path="res://Scenes/Autoloads/ResourceManager/DefaultResources.gd" id="1_s4c1d"]
+[ext_resource type="Resource" uid="uid://cksto4i6muwk3" path="res://Scenes/Autoloads/ResourceManager/InterfaceIconPack.tres" id="2_r6uxs"]
+
+[node name="DefaultResources" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_s4c1d")
+defaultInterfaceIcons = ExtResource("2_r6uxs")
+pathToIcons = "res://Art/free-file-icons-master/512px/"
+ignoreExtensions = PackedStringArray("ignore", "godot", "git", "import", "meta")

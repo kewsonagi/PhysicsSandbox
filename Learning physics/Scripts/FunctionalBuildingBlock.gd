@@ -1,0 +1,3 @@
+extends BuildingBlock
+class_name FunctionalBuildingBlock
+

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8i1mrtb31l1o"
+path="res://.godot/imported/torch.wav-f8af10207bfdb159105380a6709ce087.sample"
+
+[deps]
+
+source_file="res://Learning physics/assets/Models/car/audio/torch.wav"
+dest_files=["res://.godot/imported/torch.wav-f8af10207bfdb159105380a6709ce087.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

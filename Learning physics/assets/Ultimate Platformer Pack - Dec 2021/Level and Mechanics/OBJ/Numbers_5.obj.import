@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvlh86ul83u5m"
+path="res://.godot/imported/Numbers_5.obj-9037d697a95b49c6c2628700b49e44ce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Numbers_5.obj-9037d697a95b49c6c2628700b49e44ce.mesh"]
+
+source_file="res://Learning physics/assets/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Numbers_5.obj"
+dest_files=["res://.godot/imported/Numbers_5.obj-9037d697a95b49c6c2628700b49e44ce.mesh", "res://.godot/imported/Numbers_5.obj-9037d697a95b49c6c2628700b49e44ce.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

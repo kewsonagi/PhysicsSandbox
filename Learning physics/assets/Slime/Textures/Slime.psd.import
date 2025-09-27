@@ -1,0 +1,22 @@
+[remap]
+
+importer="psd_layers_importer"
+type="PhotoshopDocument"
+uid="uid://cbluh0xo0awra"
+path="res://.godot/imported/Slime.psd-ee7c44794c960612e16ca13e1dadb2b4.tres"
+
+[deps]
+
+files=["res://Games/Learning physics/assets/Slime/Textures/Slime.tres"]
+
+source_file="res://Games/Learning physics/assets/Slime/Textures/Slime.psd"
+dest_files=["res://.godot/imported/Slime.psd-ee7c44794c960612e16ca13e1dadb2b4.tres", "res://Games/Learning physics/assets/Slime/Textures/Slime.tres"]
+
+[params]
+
+import_mode=1
+layer_name_encoding=1
+layer_trim_enabled=true
+layer_resource_naming="<file>-<layer>"
+old_resource_handling=0
+perform_ownership_analysis=false

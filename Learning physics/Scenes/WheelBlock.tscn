@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://cjr7mhv43qavt"]
+
+[ext_resource type="Script" uid="uid://pwef3fbot2u" path="res://Learning physics/Scripts/WheelBuildingBlock.gd" id="1_mptkn"]
+[ext_resource type="PackedScene" uid="uid://cnp6wiwerxx0n" path="res://Learning physics/assets/Ultimate Platformer Pack - Dec 2021/Powerups and Pickups/glTF/Coin.gltf" id="2_kbnox"]
+[ext_resource type="PackedScene" uid="uid://b543jnugrqf0d" path="res://Learning physics/Scenes/connectionPointFront.tscn" id="7_2dmlo"]
+[ext_resource type="PackedScene" uid="uid://bvfkn8ge6ghf2" path="res://Learning physics/Scenes/connectionPointBack.tscn" id="8_ryrel"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_mptkn"]
+height = 0.4
+radius = 0.85
+
+[node name="CoinWheel" type="RigidBody3D" node_paths=PackedStringArray("physicalParent", "model", "groundCheck", "connections")]
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+script = ExtResource("1_mptkn")
+physicalParent = NodePath(".")
+model = NodePath("Coin2")
+speed = 100.0
+turnSpeed = 50.0
+groundCheck = NodePath("RayCast3D")
+connections = [NodePath("ConnectionPointBack"), NodePath("ConnectionPointFront")]
+
+[node name="Coin2" parent="." instance=ExtResource("2_kbnox")]
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, -0.12716472, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.12764353, 0)
+shape = SubResource("CylinderShape3D_mptkn")
+
+[node name="ConnectionPointFront" parent="." instance=ExtResource("7_2dmlo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0013564825, 0.3211394)
+collision_layer = 256
+collision_mask = 0
+
+[node name="ConnectionPointBack" parent="." instance=ExtResource("8_ryrel")]
+transform = Transform3D(-1, 0, -1.509958e-07, 0, 1, 0, 1.509958e-07, 0, -1, 0, 0.0013564825, -0.29303294)
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.26511475, 0)

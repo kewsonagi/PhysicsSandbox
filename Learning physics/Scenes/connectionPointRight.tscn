@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://5v0lwk76agng"]
+
+[ext_resource type="Script" uid="uid://begdcvnoxtalx" path="res://Learning physics/Scripts/BlockJoint.gd" id="1_s1wl7"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2fxrk"]
+radius = 0.3
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_7xpnn"]
+radius = 0.1
+
+[node name="ConnectionPointRight" type="RigidBody3D" node_paths=PackedStringArray("joint", "ourCollider", "connectorCheckShape")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 0)
+script = ExtResource("1_s1wl7")
+joint = NodePath("Generic6DOFJoint3D")
+ourCollider = NodePath("CollisionShape3D")
+connectorCheckShape = NodePath("ShapeCast3D")
+metadata/_custom_type_script = "uid://begdcvnoxtalx"
+
+[node name="ConeTwistJoint3D" type="ConeTwistJoint3D" parent="."]
+swing_span = 0.0
+twist_span = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_2fxrk")
+
+[node name="ShapeCast3D" type="ShapeCast3D" parent="."]
+shape = SubResource("SphereShape3D_7xpnn")
+target_position = Vector3(0, 0, 0.5)
+collision_mask = 256
+
+[node name="Generic6DOFJoint3D" type="Generic6DOFJoint3D" parent="."]
+linear_limit_x/upper_distance = 0.05
+linear_limit_x/lower_distance = -0.05
+linear_limit_y/upper_distance = 0.05
+linear_limit_y/lower_distance = -0.05
+linear_limit_z/upper_distance = 0.05
+linear_limit_z/lower_distance = -0.05
+angular_limit_x/upper_angle = 0.08726646
+angular_limit_x/lower_angle = -0.08726646
+angular_limit_y/upper_angle = 0.08726646
+angular_limit_y/lower_angle = -0.08726646
+angular_limit_z/upper_angle = 0.08726646
+angular_limit_z/lower_angle = -0.08726646

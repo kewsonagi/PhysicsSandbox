@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgnrofft6nl5b"
+path="res://.godot/imported/Cube_Grass_1x1Center.obj-c50d751177bd7b0ff231bd084369a387.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cube_Grass_1x1Center.obj-c50d751177bd7b0ff231bd084369a387.mesh"]
+
+source_file="res://Learning physics/assets/Ultimate Platformer Pack - Dec 2021/Modular Platforms/2D/OBJ/Cube_Grass_1x1Center.obj"
+dest_files=["res://.godot/imported/Cube_Grass_1x1Center.obj-c50d751177bd7b0ff231bd084369a387.mesh", "res://.godot/imported/Cube_Grass_1x1Center.obj-c50d751177bd7b0ff231bd084369a387.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

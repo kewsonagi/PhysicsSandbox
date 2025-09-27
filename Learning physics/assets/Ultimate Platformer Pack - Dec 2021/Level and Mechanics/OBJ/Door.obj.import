@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cn14y06rmnx4"
+path="res://.godot/imported/Door.obj-c8a9ce2e2629699d14b4c5ac5fdedfcd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Door.obj-c8a9ce2e2629699d14b4c5ac5fdedfcd.mesh"]
+
+source_file="res://Learning physics/assets/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Door.obj"
+dest_files=["res://.godot/imported/Door.obj-c8a9ce2e2629699d14b4c5ac5fdedfcd.mesh", "res://.godot/imported/Door.obj-c8a9ce2e2629699d14b4c5ac5fdedfcd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1pghbcc4kqlf"]
+
+[ext_resource type="PackedScene" uid="uid://dngaxlryde7d7" path="res://Learning physics/assets/OveractionGameStudio/Stick.blend" id="1_iil6q"]
+[ext_resource type="Material" uid="uid://daln7llfbgg2e" path="res://Learning physics/assets/OveractionGameStudio/Stick_Cube_mat.res" id="2_o1yu5"]
+
+[node name="Stick" instance=ExtResource("1_iil6q")]
+
+[node name="Cube" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+material_override = ExtResource("2_o1yu5")

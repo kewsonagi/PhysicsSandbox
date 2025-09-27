@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://da2p3p37tvbmp"
+path="res://.godot/imported/Gem_Blue.obj-c589eeb16141b651288cf37583a377da.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Gem_Blue.obj-c589eeb16141b651288cf37583a377da.mesh"]
+
+source_file="res://Learning physics/assets/Ultimate Platformer Pack - Dec 2021/Powerups and Pickups/OBJ/Gem_Blue.obj"
+dest_files=["res://.godot/imported/Gem_Blue.obj-c589eeb16141b651288cf37583a377da.mesh", "res://.godot/imported/Gem_Blue.obj-c589eeb16141b651288cf37583a377da.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

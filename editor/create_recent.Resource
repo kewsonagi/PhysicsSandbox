@@ -1,0 +1,7 @@
+StandardMaterial3D
+ArrayMesh
+ORMMaterial3D
+InterfaceIconPack
+WidgetConfig
+AppManifest
+Resource

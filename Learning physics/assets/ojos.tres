@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://ch4pixyi1kvmh"]
+
+[ext_resource type="Texture2D" uid="uid://dsthxobkqo5g4" path="res://Learning physics/assets/Slime/Textures/Slime.png" id="1_bj60u"]
+
+[resource]
+resource_name = "ojos"
+transparency = 4
+albedo_texture = ExtResource("1_bj60u")
+roughness = 0.5
+metadata/extras = {
+"luxcore": {
+"node_tree": {}
+},
+"yp": {
+"active_ypaint_node": ""
+}
+}

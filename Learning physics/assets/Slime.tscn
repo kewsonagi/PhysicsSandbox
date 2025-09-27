@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cg3u2aew6wpup"]
+
+[ext_resource type="PackedScene" uid="uid://bntkc11cic2a6" path="res://Learning physics/assets/Slime/Slime_glb.glb" id="1_d70fp"]
+[ext_resource type="PackedScene" uid="uid://bsfghnirvdx8m" path="res://Learning physics/assets/Slime/Slime_fbx.fbx" id="2_ws7qj"]
+
+[node name="Slime" type="Node3D"]
+
+[node name="Slime" parent="." instance=ExtResource("1_d70fp")]
+
+[node name="Slime_fbx" parent="." instance=ExtResource("2_ws7qj")]
+visible = false

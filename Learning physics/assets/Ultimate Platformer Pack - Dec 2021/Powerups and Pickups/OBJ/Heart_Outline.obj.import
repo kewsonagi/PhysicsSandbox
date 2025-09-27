@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://msfqtng6ri6q"
+path="res://.godot/imported/Heart_Outline.obj-767051b798be1cc4f4044f1b7d8b0299.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Heart_Outline.obj-767051b798be1cc4f4044f1b7d8b0299.mesh"]
+
+source_file="res://Learning physics/assets/Ultimate Platformer Pack - Dec 2021/Powerups and Pickups/OBJ/Heart_Outline.obj"
+dest_files=["res://.godot/imported/Heart_Outline.obj-767051b798be1cc4f4044f1b7d8b0299.mesh", "res://.godot/imported/Heart_Outline.obj-767051b798be1cc4f4044f1b7d8b0299.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

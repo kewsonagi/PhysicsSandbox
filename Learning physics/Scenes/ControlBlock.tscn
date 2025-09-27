@@ -1,0 +1,51 @@
+[gd_scene load_steps=10 format=3 uid="uid://cj26w8k7g7i3h"]
+
+[ext_resource type="Script" uid="uid://bxbmfjl2wq0oy" path="res://Learning physics/Scripts/ControlUnitBlock.gd" id="1_glfnm"]
+[ext_resource type="PackedScene" uid="uid://dpaoa3x1ho6v2" path="res://Learning physics/assets/Ultimate Platformer Pack - Dec 2021/Cubes/glTF/Cube_Default.gltf" id="2_rw5o8"]
+[ext_resource type="PackedScene" uid="uid://brfruaxp8nrnu" path="res://Learning physics/Scenes/ConnectionPointLeft.tscn" id="3_rw5o8"]
+[ext_resource type="PackedScene" uid="uid://c55www4m8fx2v" path="res://Learning physics/Scenes/connectionPointTop.tscn" id="4_2i7xd"]
+[ext_resource type="PackedScene" uid="uid://sma24slhlewg" path="res://Learning physics/Scenes/connectionPointBottom.tscn" id="5_1nn2r"]
+[ext_resource type="PackedScene" uid="uid://5v0lwk76agng" path="res://Learning physics/Scenes/connectionPointRight.tscn" id="6_v2xyb"]
+[ext_resource type="PackedScene" uid="uid://b543jnugrqf0d" path="res://Learning physics/Scenes/connectionPointFront.tscn" id="7_lc6is"]
+[ext_resource type="PackedScene" uid="uid://bvfkn8ge6ghf2" path="res://Learning physics/Scenes/connectionPointBack.tscn" id="8_0adhe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ni8yv"]
+
+[node name="CarBlock" type="RigidBody3D" node_paths=PackedStringArray("connections")]
+script = ExtResource("1_glfnm")
+connections = [NodePath("ConnectionPointLeft"), NodePath("ConnectionPointTop"), NodePath("ConnectionPointBottom"), NodePath("ConnectionPointRight"), NodePath("ConnectionPointFront"), NodePath("ConnectionPointBack")]
+
+[node name="Cube_Default2" parent="." instance=ExtResource("2_rw5o8")]
+transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 0, 0.19173735, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 0, 0.19823515, 0)
+shape = SubResource("BoxShape3D_ni8yv")
+
+[node name="ConnectionPointLeft" parent="." instance=ExtResource("3_rw5o8")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.736462, 0.0007748604, 0)
+collision_layer = 256
+collision_mask = 0
+
+[node name="ConnectionPointTop" parent="." instance=ExtResource("4_2i7xd")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0.9592061, -4.1928228e-08)
+collision_layer = 256
+collision_mask = 0
+
+[node name="ConnectionPointBottom" parent="." instance=ExtResource("5_1nn2r")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -0.54059917, -2.363034e-08)
+collision_layer = 256
+collision_mask = 0
+
+[node name="ConnectionPointRight" parent="." instance=ExtResource("6_v2xyb")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.8076563, 0.000764668, 0)
+collision_layer = 256
+collision_mask = 0
+
+[node name="ConnectionPointFront" parent="." instance=ExtResource("7_lc6is")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.000764668, 0.760724)
+collision_layer = 256
+collision_mask = 0
+
+[node name="ConnectionPointBack" parent="." instance=ExtResource("8_0adhe")]
+transform = Transform3D(-1, 0, -1.509958e-07, 0, 1, 0, 1.509958e-07, 0, -1, 0, 0.000764668, -0.7546233)
